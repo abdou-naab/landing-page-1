@@ -133,12 +133,13 @@ section{
   color: #1f2937;
 }
 .card-img {
-  border: 1px solid #ddd;
+  border: 3px solid #3882f6;
   border-radius: 4px;
-  padding: 5px;
+  padding: 0;
   width: 9rem;
   height: 9rem;
   object-fit: fill;
+  border-radius: 4px;
 }
 
 .card-img:hover {
@@ -147,6 +148,7 @@ section{
 
 .card-desc{
   margin-top: 0.3rem;
+  text-align: center;
 }
 .call-signup{
   display: flex;
